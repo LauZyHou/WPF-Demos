@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPF_Demos.control.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Demos.control"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <StackPanel>
+        <Button Margin="5">
+            <TextBox Text="Hello"/>
+        </Button>
+        <Button Margin="5">
+            <Image Source="../img/smile.png" Width="30" Height="30"/>
+        </Button>
+    </StackPanel>
+</Window>
