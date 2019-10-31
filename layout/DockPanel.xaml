@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPF_Demos.layout.DockPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Demos.layout"
+        mc:Ignorable="d"
+        Title="DockPanel" Height="300" Width="400">
+    <Grid>
+        <!--LastChildFill="True"时,最后一个元素的DockPanel.Dock会被忽略,而填满剩余空间-->
+        <!--上下的要给Height,左右的要给Width-->
+        <DockPanel LastChildFill="True">
+            <TextBox DockPanel.Dock="Top" Height="25" BorderBrush="Black"/>
+            <TextBox DockPanel.Dock="Left" Width="150" BorderBrush="Black"/>
+            <TextBox BorderBrush="Black"/>
+        </DockPanel>
+    </Grid>
+</Window>
