@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF_Demos.binding.NoPath"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Demos.binding"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="NoPath" Height="110" Width="300">
+    <StackPanel>
+        <StackPanel.Resources>
+            <sys:String x:Key="myString">
+                菩提本无树，明镜亦非台。
+                本来无一物，何处惹尘埃。
+            </sys:String>
+        </StackPanel.Resources>
+        <!--这里直接引用string，所以不用指定Path-->
+        <TextBox x:Name="textBox3" TextWrapping="Wrap" Text="{Binding Path=.,Source={StaticResource ResourceKey=myString}}" FontSize="16" Margin="5"/>
+    </StackPanel>
+</Window>
