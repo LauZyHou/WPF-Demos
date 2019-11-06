@@ -8,13 +8,43 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="img\images\polo.png" />
+    <None Remove="img\images\宝马X2.png" />
+    <None Remove="img\images\晶悦.png" />
+    <None Remove="img\images\标志508L.png" />
+    <None Remove="img\logos\baoma.png" />
+    <None Remove="img\logos\biaozhi.png" />
+    <None Remove="img\logos\dazhong.png" />
+    <None Remove="img\logos\sikeda.png" />
     <None Remove="img\smile.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="img\images\polo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\images\宝马X2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\images\晶悦.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\images\标志508L.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\logos\baoma.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\logos\biaozhi.png" />
+    <Resource Include="img\logos\dazhong.png" />
+    <Resource Include="img\logos\sikeda.png" />
     <Resource Include="img\smile.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="template\" />
   </ItemGroup>
 
 </Project>

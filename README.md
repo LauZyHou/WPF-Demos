@@ -84,6 +84,13 @@ BindingµÄPathÊôÐÔµÄÌØÊâÊ¹ÓÃ¡£±¾ÀýÖÐ°ó¶¨ÎªÁËTextBoxÄÚÈÝµÄ³¤¶È£¬ÒÔ¼°TextBoxÄÚÈÝÖÐµ
 
 Ê¹ÓÃ¼¯ºÏ¶ÔÏó×÷ÎªÁÐ±í¿Ø¼þµÄItemsSource¡£
 
+### user_control ÓÃ»§¿Ø¼þ
+
+- UserControl
+
+Ê¹ÓÃÁËCarDetailViewÀ´Õ¹Ê¾×ó²àµÄÆû³µÏêÏ¸ÐÅÏ¢£¬Ê¹ÓÃCarListItemViewÀ´Õ¹Ê¾ÓÒ²àµÄÆû³µÑ¡ÔñÁÐ±í¡£
+
+
 ## ÃùÐ»
 
 ÒÔÏÂÊÇÍê³É±¾²Ö¿âÖÐÊ¾ÀýËù²ÉÓÃµÄÑ§Ï°×ÊÔ´¡£
