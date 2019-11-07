@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WPF_Demos.template">
+    <!--给很长的Converter起个别名-->
+    <local:AutomakerToLogoPathConverter x:Key="a21"/>
+    <!--数据模板,和用户控件内容一样,但同时要做数据绑定-->
+    <!--这里指定x:Key以在导入后,使用时引用到它-->
+    <DataTemplate x:Key="carListItemViewTemplate">
+        <Grid Margin="2">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{Binding Automaker,Converter={StaticResource a21}}" x:Name="imageLogo" Grid.RowSpan="3" Width="64" Height="64"/>
+                <StackPanel Margin="5,10">
+                    <TextBlock Text="{Binding Name}" x:Name="textBlockName" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock Text="{Binding Year}" x:Name="textBlockYear" FontSize="14"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </DataTemplate>
+</ResourceDictionary>

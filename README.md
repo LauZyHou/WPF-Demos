@@ -90,6 +90,12 @@ BindingµÄPathÊôÐÔµÄÌØÊâÊ¹ÓÃ¡£±¾ÀýÖÐ°ó¶¨ÎªÁËTextBoxÄÚÈÝµÄ³¤¶È£¬ÒÔ¼°TextBoxÄÚÈÝÖÐµ
 
 Ê¹ÓÃÁËCarDetailViewÀ´Õ¹Ê¾×ó²àµÄÆû³µÏêÏ¸ÐÅÏ¢£¬Ê¹ÓÃCarListItemViewÀ´Õ¹Ê¾ÓÒ²àµÄÆû³µÑ¡ÔñÁÐ±í¡£
 
+### template Ä£°å
+
+- DataTemplate
+
+Êý¾ÝÄ£°å£¬ÔÚxamlµÄ¿ªÍ·µ¼ÈëÁËresource_dicÏÂµÄÁ½¸öÊý¾Ý×Öµä£¬Á½¸öÊý¾Ý×ÖµäÖÐ·Ö±ð¶¨ÒåÁËÊý¾ÝÄ£°å£¨Ò²¿ÉÒÔ¶¨Òåµ½Ò»ÆðÈ¥£©£¬²¢ÇÒÊ¹ÓÃµ½ÁËconverterÏÂµÄUCConverterÖÐµÄÁ½¸ö×ª»»Àà¡£ÔÚÊéÐ´Êý¾ÝÄ£°åÊ±ÎÞ·¨Ö±¹Û¿´µ½ÓÃ»§µÄ¿Ø¼þµÄÑù×Ó£¬¿ÉÒÔÏÈÐ´ºÃÓÃ»§¿Ø¼þ£¬È»ºóÔÙ¿½±´µ½Êý¾ÝÄ£°åÖÐÀ´¡£
+
 
 ## ÃùÐ»
 

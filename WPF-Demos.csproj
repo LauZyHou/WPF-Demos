@@ -43,8 +43,4 @@
     </Resource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="template\" />
-  </ItemGroup>
-
 </Project>
