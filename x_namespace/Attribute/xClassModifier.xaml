@@ -1,0 +1,13 @@
+﻿<Window x:Class="WPF_Demos.x_namespace.xClassModifier"
+        x:ClassModifier="internal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Demos.x_namespace"
+        mc:Ignorable="d"
+        Title="xClassModifier" Height="250" Width="800">
+    <Grid>
+        <TextBlock Text="x:ClassModifier用于告诉XAML编译由标签生成的类的访问级别,和x:Class指定的类的访问级别要一致" FontSize="50" TextWrapping="Wrap"/>
+    </Grid>
+</Window>

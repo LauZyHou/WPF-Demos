@@ -118,6 +118,36 @@ BindingµÄPathÊôÐÔµÄÌØÊâÊ¹ÓÃ¡£±¾ÀýÖÐ°ó¶¨ÎªÁËTextBoxÄÚÈÝµÄ³¤¶È£¬ÒÔ¼°TextBoxÄÚÈÝÖÐµ
 
 ¸½¼ÓÊôÐÔ°ó¶¨ÔÚÆäËü¶ÔÏóÉÏµÄÊ¾Àý¡£ÕâÀïÊÇ¾ØÐÎÔÚCanvasÀïÓÐÁËLeftºÍTopÁ½¸öÔ´×ÔCanvasµÄ¸½¼ÓÊôÐÔ£¬½«Æä°ó¶¨µ½ÁËÁ½¸öSliderµÄValueÉÏ¡£
 
+### x_namespace xÃüÃû¿Ø¼þ
+
+xÃüÃû¿Õ¼äÖÐÌá¹©µÄÊÇÔÚ½âÎöºÍ±àÒëXAMLÖÐµÄÉèÖÃ£¬¼´³ÌÐòÔ±ºÍXAML±àÒëÆ÷¹µÍ¨µÄ¹¤¾ß¡£
+
+#### Attribute
+
+AttributeÊÇÓïÑÔ²ãÃæµÄ£¬¸ø±àÒëÆ÷¿´µÄ¶«Î÷¡£
+
+- x:Class
+
+ÓÃÓÚ¸æËßXAML±àÒëÆ÷½«XAML±êÇ©µÄ±àÒë½á¹ûÓëºóÌ¨´úÂëÖÐÖ¸¶¨µÄÀàºÏ²¢¡£
+
+- x:ClassModifier
+
+ÓÃÓÚ¸æËßXAML±àÒëÓÉ±êÇ©Éú³ÉµÄÀàµÄ·ÃÎÊ¼¶±ð,ºÍx:ClassÖ¸¶¨µÄÀàµÄ·ÃÎÊ¼¶±ðÒªÒ»ÖÂ¡£
+
+- x:Name
+
+XAMLÄ¬ÈÏÖ»ÉùÃ÷¶ÔÏó£¬²»´´½¨ÒýÓÃ±äÁ¿¡£`x:Name`¾ÍÊÇÏÔÊ½µØ¸æËßXAML±àÒëÆ÷ÎªÕâ¸ö¶ÔÏóÉùÃ÷ÒýÓÃ±äÁ¿¡£
+µ±Ò»¸öÔªËØÓÐ`Name`ÊôÐÔÊ±£¨ÊÇ`FrameworkElement`ÊµÀý£©£¬ºÍ`x:Name`ÊÇÒ»ÑùµÄÐ§¹û¡£Ã»ÓÐµÄÊ±ºò¾ÍÖ»ÄÜÓÃ`x:Name`ÁË¡£
+
+- x:FieldModifier
+
+ÓÃÓÚ¿ØÖÆXAML´°ÌåÖÐÔªËØµÄ·ÃÎÊ¼¶±ð£¬Ä¬ÈÏÇé¿öÏÂÊÇinternal¡£µ±ÐèÒª´ÓÒ»¸ö³ÌÐò¼¯·ÃÎÊÁíÒ»¸ö³ÌÐò¼¯´°ÌåÖÐµÄÔªËØÊ±£¬¾ÍÒªÉèÖÃÎªpublic¡£
+
+- x:KeyºÍx:Shared
+
+`x:Key`ÓÃÓÚÎª×ÊÔ´ÌùÉÏÓÃÓÚ¼ìË÷µÄË÷Òý£¬³£ÓÃÔÚ×ÊÔ´×ÖµäÖÐ¡£
+µ±ÉèÖÃÁË`x:key`£¬·½¿ÉÊ¹ÓÃ`x:Shared`ÉèÖÃÃ¿´ÎÈ¡³öµÄÊÇÍ¬Ò»¸ö¶ÔÏó»¹ÊÇÐÂ¸±±¾£¬Ä¬ÈÏÊÇtrue£¬¼´Í¬Ò»¸ö¶ÔÏó¡£
+
 ## ÃùÐ»
 
 ÒÔÏÂÊÇÍê³É±¾²Ö¿âÖÐÊ¾ÀýËù²ÉÓÃµÄÑ§Ï°×ÊÔ´¡£

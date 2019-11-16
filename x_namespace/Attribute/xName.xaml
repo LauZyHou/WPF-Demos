@@ -1,0 +1,13 @@
+﻿<Window x:Class="WPF_Demos.x_namespace.xName"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Demos.x_namespace"
+        mc:Ignorable="d"
+        Title="xName" Height="100" Width="300">
+    <StackPanel>
+        <TextBox x:Name="textBox" Margin="5"/>
+        <Button Content="OK" Margin="5" Click="Button_Click"/>
+    </StackPanel>
+</Window>

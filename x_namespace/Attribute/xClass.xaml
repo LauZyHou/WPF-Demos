@@ -1,0 +1,12 @@
+﻿<Window x:Class="WPF_Demos.x_namespace.xClass"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Demos.x_namespace"
+        mc:Ignorable="d"
+        Title="xClass" Height="250" Width="800">
+    <Grid>
+        <TextBlock Text="x:Class用于告诉XAML编译器将XAML标签的编译结果与后台代码中指定的类合并" FontSize="50" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
