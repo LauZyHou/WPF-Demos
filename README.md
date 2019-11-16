@@ -102,6 +102,21 @@ BindingµÄPathÊôÐÔµÄÌØÊâÊ¹ÓÃ¡£±¾ÀýÖÐ°ó¶¨ÎªÁËTextBoxÄÚÈÝµÄ³¤¶È£¬ÒÔ¼°TextBoxÄÚÈÝÖÐµ
 
 Ê¹ÓÃÑ¡Ïî¿¨µÄÑùÀý£¬²ÎÕÕ[´ËÆª](https://www.cnblogs.com/lk-kk/p/4609026.html)¡£
 
+### property ÊôÐÔ
+
+- DependencyProperty1,2
+
+Ê¹ÓÃÒÀÀµÊôÐÔµÄ¼òµ¥Ê¾Àý£¬ÆäÖÐ`2`»¹Õ¹Ê¾ÁËBindingÁ´ÒÔ¼°ÒÀÀµ¶ÔÏóºÍÒÀÀµÊôÐÔ¾­·â×°ºóµÄ¼òµ¥ÓÃ·¨¡£StudentÀàÊÇÒ»¸ö±ê×¼µÄÒÀÀµ¶ÔÏó¡£
+Ã¿¸öDependencyObjectÊµÀý¶¼×Ô´øÒ»¸öEffectiveValueEntryÀàÐÍÊý×é£¬µ±Ä³¸öÒÀÀµÊôÐÔ±»¶ÁÈ¡Ê±£¬¾Í»áÈ¥Õâ¸öÊý×éÖÐÈ¥¼ìË÷Öµ¡£
+±»static¹Ø¼ü×ÖÐÞÊÎµÄÒÀÀµÊôÐÔ¶ÔÏóÆä×÷ÓÃÊÇÀ´¼ìË÷ÕæÕýµÄÊôÐÔÖµ¶ø²»ÊÇ´æ´¢Öµ¡£
+
+- AttachProperty
+
+¸½¼ÓÊôÐÔµÄ¼òµ¥Ê¾Àý¡£¸½¼ÓÊôÐÔÊÇÌØÊâµÄÒÀÀµÊôÐÔ£¬Ö»ÊÇÓÃÓÚÔÚÊý×éÀï¼ìË÷ÖµµÄÒÀÀµÊôÐÔ±£´æÔÚËÞÖ÷Àï¡£
+
+- APBinding
+
+¸½¼ÓÊôÐÔ°ó¶¨ÔÚÆäËü¶ÔÏóÉÏµÄÊ¾Àý¡£ÕâÀïÊÇ¾ØÐÎÔÚCanvasÀïÓÐÁËLeftºÍTopÁ½¸öÔ´×ÔCanvasµÄ¸½¼ÓÊôÐÔ£¬½«Æä°ó¶¨µ½ÁËÁ½¸öSliderµÄValueÉÏ¡£
 
 ## ÃùÐ»
 
