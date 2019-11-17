@@ -118,7 +118,7 @@ BindingµÄPathÊôÐÔµÄÌØÊâÊ¹ÓÃ¡£±¾ÀýÖÐ°ó¶¨ÎªÁËTextBoxÄÚÈÝµÄ³¤¶È£¬ÒÔ¼°TextBoxÄÚÈÝÖÐµ
 
 ¸½¼ÓÊôÐÔ°ó¶¨ÔÚÆäËü¶ÔÏóÉÏµÄÊ¾Àý¡£ÕâÀïÊÇ¾ØÐÎÔÚCanvasÀïÓÐÁËLeftºÍTopÁ½¸öÔ´×ÔCanvasµÄ¸½¼ÓÊôÐÔ£¬½«Æä°ó¶¨µ½ÁËÁ½¸öSliderµÄValueÉÏ¡£
 
-### x_namespace xÃüÃû¿Ø¼þ
+### x_namespace xÃüÃû¿Õ¼ä
 
 xÃüÃû¿Õ¼äÖÐÌá¹©µÄÊÇÔÚ½âÎöºÍ±àÒëXAMLÖÐµÄÉèÖÃ£¬¼´³ÌÐòÔ±ºÍXAML±àÒëÆ÷¹µÍ¨µÄ¹¤¾ß¡£
 
@@ -147,6 +147,29 @@ XAMLÄ¬ÈÏÖ»ÉùÃ÷¶ÔÏó£¬²»´´½¨ÒýÓÃ±äÁ¿¡£`x:Name`¾ÍÊÇÏÔÊ½µØ¸æËßXAML±àÒëÆ÷ÎªÕâ¸ö¶ÔÏóÉù
 
 `x:Key`ÓÃÓÚÎª×ÊÔ´ÌùÉÏÓÃÓÚ¼ìË÷µÄË÷Òý£¬³£ÓÃÔÚ×ÊÔ´×ÖµäÖÐ¡£
 µ±ÉèÖÃÁË`x:key`£¬·½¿ÉÊ¹ÓÃ`x:Shared`ÉèÖÃÃ¿´ÎÈ¡³öµÄÊÇÍ¬Ò»¸ö¶ÔÏó»¹ÊÇÐÂ¸±±¾£¬Ä¬ÈÏÊÇtrue£¬¼´Í¬Ò»¸ö¶ÔÏó¡£
+
+#### MarkupExtension
+
+±ê¼ÇÀ©Õ¹Êµ¼Ê¾ÍÊÇÒ»Ð©MarkupExtensionÀàµÄÖ±½Ó»ò¼ä½ÓÅÉÉúÀà¡£
+
+- x:Type
+
+`x:Type`ÓÃÓÚXAMLÔªËØÀïÄÇÐ©ÐèÒª´«ÈëÊý¾ÝÀàÐÍµÄ²ÎÊý¡£
+Õâ¸öÀý×ÓÖÐÊÇ×Ô¼º¼Ì³ÐÁËButton£¬È»ºóÉè¶¨Ò»¸öUserWindowType²ÎÊý´«Èë´°¿ÚÀàÐÍ£¬µã»÷°´Å¥Ê±¾Í´´½¨Ò»¸ö¸ÃÀàÐÍµÄ´°¿Ú²¢´ò¿ª¡£
+
+- x:Null
+
+µ±Ò»¸öÊôÐÔ¾ßÓÐÄ¬ÈÏÖµ£¬¶øÔÚÊ¹ÓÃÊ±ÒªÏû³ýÕâ¸öÄ¬ÈÏÖµÊ±£¬Ê¹ÓÃ`x:Null`ÉèÖÃÖµ¡£
+
+- x:Array
+
+`x:Array`µÄ×÷ÓÃÊÇÍ¨¹ýËüµÄItemsÊôÐÔÏòÊ¹ÓÃÕß±©Â¶Ò»¸öÀàÐÍÒÑÖªµÄArrayListÊµÀý¡£
+Õâ¸ö±ê¼ÇÀ©Õ¹±È½ÏÌØÊâ£¬ÒªÓÃÆä±êÇ©ÉùÃ÷ÐÎÊ½£¬È»ºóÔÚ×ÓÔªËØÀïÌí¼ÓÔªËØ¡£ÔÚ½âÎö`<x:Array>`±êÇ©µÄÊ±ºò±àÒëÆ÷»áÉú³Éµ÷ÓÃAddChild·½·¨µÄ´úÂë£¬½«Æä×ÓÔªËØÌí¼Óµ½`x:Array`ÊµÀýµÄItemsÀï¡£
+
+- x:Static
+
+`x:Static`ÓÃÓÚÔÚXAMLÎÄµµÖÐÊ¹ÓÃÊý¾ÝÀàÐÍµÄStatic³ÉÔ±¡£
+Õâ¸öÀý×ÓÖÐÊÇÔÚC#ÎÄ¼þµÄÀàÖÐÉèÖÃÁËÒ»¸östatic×Ö¶Î£¬Ò»¸östaticÊôÐÔ£¬È»ºóÔÚXAMLÎÄ¼þÖÐÈ¡³öËüÃÇ¡£
 
 ## ÃùÐ»
 
